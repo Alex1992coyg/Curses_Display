@@ -101,7 +101,7 @@ class DisplayBlockOnSamePad:
         on the screen at position (5,5)
         with the maximum portion of the pad displayed being 15 lines x 20 chars    [pad.refresh(0, 2, 5, 5, 15, 20)]
         '''
-        self.my_pad.refresh(self.pad_position,0,self.pad_position*2+2,2,20,40)
+        # self.my_pad.refresh(self.pad_position,0,self.pad_position*2+2,10,20,40)
 
     def screen_size(self):
         num_rows, num_cols = self.stdscr.getmaxyx()
